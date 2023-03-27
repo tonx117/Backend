@@ -1,36 +1,33 @@
-# Java class files
-*.class
+HELP.md
+##target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Log files
-*.log
-*.log.*
-logging/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# IntelliJ project files
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
-.idea/
 
-# Eclipse project files
-.project
-.classpath
-.settings/
-.factorypath
-
-# Gradle files
-.gradle/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Maven files
-target/
-
-# Spring Boot DevTools files
-.restart
-.spring-boot-actuator/
-
-# Other files to ignore
-/bin/
-/out/
-/.mvn/wrapper/maven-wrapper.jar
-/.mvn/wrapper/maven-wrapper.properties
+### VS Code ###
+.vscode/
