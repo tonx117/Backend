@@ -1,4 +1,4 @@
-FROM amazoncorretto:17-alpine-jdk
+FROM openjdk:17.0.6
 
 COPY target/tomas-0.0.1-SNAPSHOT.jar app.jar
 
